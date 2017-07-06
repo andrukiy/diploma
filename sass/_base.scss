@@ -1,13 +1,46 @@
 $container-width: 1170px;
-
-.container {
-	width: $container-width;
-	margin: 0 auto;
-}
 .clearfix::after {
-    content: ".";
+    content: "";
     display: block;
-    height: 0;
     clear: both;
     visibility: hidden;
+}
+body {
+	background-color: #f5f5f5;
+}
+.container {
+	max-width: $container-width;
+	margin: 0 auto;
+	padding: 0 10px;
+	@extend .clearfix;
+}
+
+.slick-list {
+    .slick-slide {
+        display: flex;
+        height: 100%;
+        align-items: center; //optional
+        justify-content: center; //optional
+
+        img {
+	        height: 100%;
+	        min-width: 100%;
+	        width: auto;
+        }
+    }
+}
+.slick-slider,
+.slick-list,
+.slick-track {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+}
+.main-container {
+	@extend .clearfix;
+	margin-top: 30px;
+	overflow: hidden; width: 100%;
 }

@@ -1,0 +1,119 @@
+.main-blog {
+    width: 100/1170*820%;
+    display: table-cell;
+}
+
+.first-content-item, 
+.horizontal-elem {
+    background-color: #fff;
+}
+
+.content-header {
+    opacity: 0.87;
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+.content-text {
+    opacity: 0.87;
+    color: #000000;
+    font-family: "Open Sans";
+    font-size: 16px;
+    padding: 5px 20px;
+}
+
+.avatar {
+    float: left;
+    width: auto;
+    padding: 7px 20px;
+}
+
+.pseudo {
+    .name {
+        color: #000000;
+        font-family: Montserrat;
+        font-size: 14px;
+        padding-top: 13px;
+    }
+    .date {
+        opacity: 0.54;
+        color: #212121;
+        font-family: Montserrat;
+        font-size: 12px;
+        padding-top: 13px;
+    }
+}
+
+.dots {
+    float: right;
+    margin: 0 15px;
+    position: relative;
+    bottom: 28px;
+    right: 20px;
+    i {
+    	color: #000;
+    }
+}
+
+.horizontal-elem {
+    @extend .clearfix;
+    margin-top: 20px;
+    .media-content {
+        float: left;
+    }
+}
+.media-content {
+	padding-right: 20px;
+}
+.vertical {
+	width: 32%;
+	float: left;
+	margin-right: 2%;
+	.media-content {
+		padding: 0;
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	&:last-child {
+		margin-right: 0;
+	}
+}
+.vertical-elem {
+	width: 49%;
+	float: left;
+	background-color: #fff;
+	margin: 10px 1% 0 0;
+
+	.media-content {
+		padding: 0;
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	&:nth-child(2) {
+		margin-right: 0;
+	}
+
+}
+.next-nav {
+	float: right;
+	display: inline-flex;
+	padding: 43px 10px;
+	a{
+		color: #3d50b6;
+	}
+	i{
+		border: 1px solid #fff;
+		padding: 15px;
+		border-radius: 50%;
+		background-color: #fff;
+		margin-left: 10px;
+		&:hover{
+		border: 1px solid #ccc;
+		background-color: #ccc;
+	}
+	}
+
+}
+

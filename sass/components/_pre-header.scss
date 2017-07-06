@@ -1,17 +1,22 @@
 .pre-header__nav{
-	display: flex;
-	justify-content: space-between;
 	font-size: 14px;
 }
 .pre-header {
 	background: #191919;
 }
-.social-nav, .login-btn {
+.social-nav, 
+.login-btn {
 	
 	text-transform: uppercase;
-	padding: 10px;
+	padding: 10px 0;
 	a {
 		color: #707070;
 		padding: 0 2px 0 2px;
 	}
+}
+.social-nav {
+	float: left;
+}
+.login-btn {
+	float: right;
 }

@@ -1,0 +1,23 @@
+.subscribe {
+    background: url('../../img/2-layers.jpg');
+}
+
+.subscribe-item {
+    padding: 70px 0;
+    .subscribe-text {
+        color: #fff;
+        vertical-align: middle;
+        font-family: Montserrat;
+        font-size: 42px;
+    }
+    .subscribe-input {
+        width: 270px;
+        height: 45px;
+        border: 1px solid #ccc;
+        background-color: #212426;
+        border-radius: 25px;
+        margin: 5px 35px;
+        padding-left: 15px;
+        color: white;
+    }
+}

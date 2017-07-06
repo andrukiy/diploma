@@ -1,15 +1,15 @@
 @@include('../templates/head.html')
 @@include('../templates/components/pre-header.html')
 @@include('../templates/components/header.html')
-<main class="main-container">
-
-    
-
-    <section class="content">
-
-    </section>
-
-
+@@include('../templates/components/sort-blog.html')
+<main class="main-container" style="overflow: hidden; width: 100%;">
+	<div class="container">
+	@@include('../templates/components/main-content.html')
+	<div style="display: table-cell; width: 2%"></div>
+	@@include('../templates/components/right-menu.html')
+	</div>
+	@@include('../templates/components/bottom-slider.html')
+	@@include('../templates/components/subscribe.html')
 </main>
-
+@@include('../templates/components/footer.html')
 @@include('../templates/body-close.html')

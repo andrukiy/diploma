@@ -1,0 +1,13 @@
+.bottom-slider {
+	display: -webkit-box;
+	img {
+		
+	}
+	.bottom-slider-item {
+		max-width: 12.5%;
+		&:hover {
+			margin-top: -10px;
+			box-shadow: 0px -2px 20px 3px rgba(0, 0, 0, 0.12);
+		}
+	}
+}
